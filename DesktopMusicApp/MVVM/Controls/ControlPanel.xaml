@@ -6,7 +6,6 @@
              xmlns:viewModel="clr-namespace:Desktop.MVVM.ViewModel"
              mc:Ignorable="d"
              d:DesignWidth="800" d:DesignHeight="70"
-             Background="{DynamicResource BackgroundColor}"
              d:DataContext="{d:DesignInstance viewModel:ControlPanelViewModel}">
     <Grid>
         <Grid.ColumnDefinitions>
