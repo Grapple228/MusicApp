@@ -6,7 +6,7 @@ IDE: JetBrains Rider 2022.2.3
 В данный момент разрабатывается: Desktop-версия  
 ЯП: С# 10.0, WPF  
 Фреймворк: .NET Core 6.0  
-База данных: SQL Server Management Studio 18.12.1
+База данных: SQL Server Management Studio 18.12.1  
 Файлы: https://disk.yandex.ru/d/JJT-fvm6xjJKMQ
 
 # Процесс создания
