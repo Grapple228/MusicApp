@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cgreen_005CDesktop_005C_041F_0440_043E_0435_043A_0442_044B_005CLibraries_005CIniManager_005CINIManager_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\green\Desktop\Проекты\Libraries\IniManager\INIManager.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\green\.nuget\packages\newtonsoft.json.bson\1.0.3-beta1\lib\netstandard2.0\Newtonsoft.Json.Bson.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=187f7cab_002D9f51_002D40b9_002Dae8c_002D0f4cad1f1a45/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=_0418_0441_043F_043E_043B_043D_0438_0442_0435_043B_0438/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

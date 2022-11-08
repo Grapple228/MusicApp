@@ -1,0 +1,70 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="{x:Type Slider}" x:Key="SliderStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <!-- TickBars are collapsed (invisible) by default) -->
+                        <TickBar Grid.Column="0" Name="LeftTick" 
+                                 Width="10" Placement="Left" Visibility="Collapsed"  
+                                 Fill="{TemplateBinding Foreground}"/>
+                            
+                        <TickBar Grid.Column="2" Name="RightTick" 
+                                 Width="10" Placement="Right" Visibility="Collapsed"  
+                                 Fill="{TemplateBinding Foreground}" />
+                            
+                        <Track Grid.Column="1" Name="PART_Track">
+                            <Track.DecreaseRepeatButton>
+                                <RepeatButton Command="Slider.DecreaseLarge" Background="Aqua"/>
+                            </Track.DecreaseRepeatButton>
+                                
+                            <Track.IncreaseRepeatButton>
+                                <RepeatButton Command="Slider.IncreaseLarge" Background="Green"/>
+                            </Track.IncreaseRepeatButton>
+                            
+                            <Track.Thumb>
+                                <Thumb>
+                                    <Thumb.Style>
+                                        <Style TargetType="Thumb">
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType="Thumb">
+                                                        <Rectangle Fill="Red" Width="10" Height="{TemplateBinding Height}" Stroke="Black"/>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </Thumb.Style>
+                                </Thumb>
+                            </Track.Thumb>
+                        </Track>
+                    </Grid>
+                    <!-- Define triggers to make the TickBars visible -->
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Slider.TickPlacement" Value="TopLeft">
+                            <Setter TargetName="LeftTick" Property="Visibility"  
+                                    Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="Slider.TickPlacement" Value="BottomRight">
+                            <Setter TargetName="RightTick" Property="Visibility"  
+                                            Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="Slider.TickPlacement" Value="Both">
+                            <Setter TargetName="LeftTick" Property="Visibility"  
+                                            Value="Visible" />
+                            <Setter TargetName="RightTick" Property="Visibility"  
+                                    Value="Visible" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

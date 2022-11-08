@@ -1,0 +1,254 @@
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.exe
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.deps.json
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.runtimeconfig.json
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.dll
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.pdb
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.AssemblyReference.cache
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.cache
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.lref
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.g.resources
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfoInputs.cache
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfo.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CoreCompileInputs.cache
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.dll
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\refint\Desktop.dll
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.pdb
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.genruntimeconfig.cache
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\ref\Desktop.dll
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\LibraryListStyle.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\ScriollBarStyle.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\INIManager.dll
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\INIManager.pdb
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CopyComplete
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\WindowStyle.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\config.ini
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.g.cs
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.baml
+C:\Users\green\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.exe
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\config.ini
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.deps.json
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.runtimeconfig.json
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.pdb
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\INIManager.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\INIManager.pdb
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.AssemblyReference.cache
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\ScriollBarStyle.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\WindowStyle.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.cache
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.lref
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\LibraryListStyle.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.g.resources
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfoInputs.cache
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfo.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CopyComplete
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\refint\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.pdb
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.genruntimeconfig.cache
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\ref\Desktop.dll
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.exe
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\config.ini
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.deps.json
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.runtimeconfig.json
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.dll
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.pdb
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.AssemblyReference.cache
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\ScriollBarStyle.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\WindowStyle.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.cache
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.lref
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\LibraryListStyle.baml
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.g.resources
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfoInputs.cache
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfo.cs
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CoreCompileInputs.cache
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CopyComplete
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.dll
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\refint\Desktop.dll
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.pdb
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.genruntimeconfig.cache
+C:\Users\green\Desktop\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\ref\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\NAudio.Core.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\NAudio.WinMM.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Features.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\ControlPanel.g.cs
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\ControlPanel.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\SliderStyle.baml
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Shared.dll
+C:\Users\Green Apple\Desktop\Проекты\DesktopMusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Shared.pdb
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.exe
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\config.ini
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.deps.json
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.runtimeconfig.json
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Desktop.pdb
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\NAudio.Core.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\NAudio.WinMM.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Shared.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\bin\Debug\net6.0-windows\Shared.pdb
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.AssemblyReference.cache
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\ScriollBarStyle.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\SliderStyle.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Styles\WindowStyle.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\ControlPanel.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\SearchBox.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.cache
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop_MarkupCompile.lref
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\App.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\ControlPanel.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\AddView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\BrowseView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\LoginView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsAndTracksView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\PlaylistsView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RegistrationView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\RestorePasswordView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\TracksView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserLoginnedView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\View\UserNeedTioLoginView.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.g.resources
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfoInputs.cache
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.AssemblyInfo.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.csproj.CopyComplete
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\refint\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.pdb
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\Desktop.genruntimeconfig.cache
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\ref\Desktop.dll
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\PlaylistList.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\TrackList.g.cs
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\PlaylistList.baml
+C:\Users\Green Apple\Desktop\Проекты\MusicApp\DesktopMusicApp\obj\Debug\net6.0-windows\MVVM\Controls\TrackList.baml

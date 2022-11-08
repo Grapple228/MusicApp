@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hRNuI6YYce966ZK/oonKhwLe6d4Nfl/kIVo9t9ftsM2A/i+7JExS6/p3NnuyWtx5JqQQv/hntevLJmijwlkLnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Green Apple\\Desktop\\Проекты\\MusicApp\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Green Apple\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\Green Apple\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

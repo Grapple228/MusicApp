@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Desktop.MVVM.View.BrowseView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Desktop.MVVM.View"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300"
+             xmlns:viewModel="clr-namespace:Desktop.MVVM.ViewModel"
+             d:DataContext="{d:DesignInstance viewModel:BrowseViewModel}">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Browse" Foreground="{DynamicResource SelectionFontColor}" FontSize="90"></TextBlock>
+    </Grid>
+</UserControl>

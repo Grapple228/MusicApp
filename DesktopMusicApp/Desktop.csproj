@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Net\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\DarkTheme\Playlist\add.png" />
+    <Resource Include="Icons\DarkTheme\Playlist\add.png" />
+    <None Remove="Icons\DarkTheme\Playlist\blank.png" />
+    <Resource Include="Icons\DarkTheme\Playlist\blank.png" />
+    <None Remove="Icons\DarkTheme\Playlist\browse.png" />
+    <Resource Include="Icons\DarkTheme\Playlist\browse.png" />
+    <None Remove="Icons\DarkTheme\Playlist\home.png" />
+    <Resource Include="Icons\DarkTheme\Playlist\home.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\muted.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\muted.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\next.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\next.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\noRepeat.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\noRepeat.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\noShuffle.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\noShuffle.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\pause.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\pause.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\play.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\play.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\previous.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\previous.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\repeatPlaylist.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\repeatPlaylist.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\repeatTrack.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\repeatTrack.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\shuffle.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\shuffle.png" />
+    <None Remove="Icons\DarkTheme\ControlBar\unmuted.png" />
+    <Resource Include="Icons\DarkTheme\ControlBar\unmuted.png" />
+    <None Remove="Icons\DarkTheme\Other\arrowDown.png" />
+    <Resource Include="Icons\DarkTheme\Other\arrowDown.png" />
+    <None Remove="Icons\DarkTheme\Other\arrowUp.png" />
+    <Resource Include="Icons\DarkTheme\Other\arrowUp.png" />
+    <None Remove="Icons\DarkTheme\Other\block.png" />
+    <Resource Include="Icons\DarkTheme\Other\block.png" />
+    <None Remove="Icons\DarkTheme\Other\favouriteEmpty.png" />
+    <Resource Include="Icons\DarkTheme\Other\favouriteEmpty.png" />
+    <None Remove="Icons\DarkTheme\Other\favouriteFilled.png" />
+    <Resource Include="Icons\DarkTheme\Other\favouriteFilled.png" />
+    <None Remove="Icons\DarkTheme\Other\heartEmpty.png" />
+    <Resource Include="Icons\DarkTheme\Other\heartEmpty.png" />
+    <None Remove="Icons\DarkTheme\Other\heartFilled.png" />
+    <Resource Include="Icons\DarkTheme\Other\heartFilled.png" />
+    <None Remove="Icons\DarkTheme\Other\search.png" />
+    <Resource Include="Icons\DarkTheme\Other\search.png" />
+    <None Remove="Icons\DarkTheme\Other\threeDots.png" />
+    <Resource Include="Icons\DarkTheme\Other\threeDots.png" />
+    <None Remove="Icons\dark-light.png" />
+    <Resource Include="Icons\dark-light.png" />
+    <None Remove="Icons\heartFilledRed.png" />
+    <Resource Include="Icons\heartFilledRed.png" />
+    <None Remove="Icons\no image.png" />
+    <Resource Include="Icons\no image.png" />
+    <None Remove="Icons\LightTheme\ControlBar\block.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\block.png" />
+    <None Remove="Icons\LightTheme\ControlBar\muted.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\muted.png" />
+    <None Remove="Icons\LightTheme\ControlBar\next.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\next.png" />
+    <None Remove="Icons\LightTheme\ControlBar\noRepeat.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\noRepeat.png" />
+    <None Remove="Icons\LightTheme\ControlBar\noShuffle.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\noShuffle.png" />
+    <None Remove="Icons\LightTheme\ControlBar\pause.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\pause.png" />
+    <None Remove="Icons\LightTheme\ControlBar\play.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\play.png" />
+    <None Remove="Icons\LightTheme\ControlBar\previous.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\previous.png" />
+    <None Remove="Icons\LightTheme\ControlBar\repeatPlaylist.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\repeatPlaylist.png" />
+    <None Remove="Icons\LightTheme\ControlBar\repeatTrack.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\repeatTrack.png" />
+    <None Remove="Icons\LightTheme\ControlBar\shuffle.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\shuffle.png" />
+    <None Remove="Icons\LightTheme\ControlBar\unmuted.png" />
+    <Resource Include="Icons\LightTheme\ControlBar\unmuted.png" />
+    <None Remove="Icons\LightTheme\Other\arrowDown.png" />
+    <Resource Include="Icons\LightTheme\Other\arrowDown.png" />
+    <None Remove="Icons\LightTheme\Other\arrowUp.png" />
+    <Resource Include="Icons\LightTheme\Other\arrowUp.png" />
+    <None Remove="Icons\LightTheme\Other\block.png" />
+    <Resource Include="Icons\LightTheme\Other\block.png" />
+    <None Remove="Icons\LightTheme\Other\favouriteEmpty.png" />
+    <Resource Include="Icons\LightTheme\Other\favouriteEmpty.png" />
+    <None Remove="Icons\LightTheme\Other\favouriteFilled.png" />
+    <Resource Include="Icons\LightTheme\Other\favouriteFilled.png" />
+    <None Remove="Icons\LightTheme\Other\heartEmpty.png" />
+    <Resource Include="Icons\LightTheme\Other\heartEmpty.png" />
+    <None Remove="Icons\LightTheme\Other\heartFilled.png" />
+    <Resource Include="Icons\LightTheme\Other\heartFilled.png" />
+    <None Remove="Icons\LightTheme\Other\search.png" />
+    <Resource Include="Icons\LightTheme\Other\search.png" />
+    <None Remove="Icons\LightTheme\Other\threeDots.png" />
+    <Resource Include="Icons\LightTheme\Other\threeDots.png" />
+    <None Remove="Icons\LightTheme\Playlist\add.png" />
+    <Resource Include="Icons\LightTheme\Playlist\add.png" />
+    <None Remove="Icons\LightTheme\Playlist\blank.png" />
+    <Resource Include="Icons\LightTheme\Playlist\blank.png" />
+    <None Remove="Icons\LightTheme\Playlist\browse.png" />
+    <Resource Include="Icons\LightTheme\Playlist\browse.png" />
+    <None Remove="Icons\LightTheme\Playlist\home.png" />
+    <Resource Include="Icons\LightTheme\Playlist\home.png" />
+    <None Update="config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio.Core" Version="2.1.0">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+    <PackageReference Include="NAudio.WinForms" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+
+</Project>

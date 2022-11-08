@@ -1,0 +1,328 @@
+﻿<UserControl x:Class="Desktop.MVVM.Controls.ControlPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:viewModel="clr-namespace:Desktop.MVVM.ViewModel"
+             mc:Ignorable="d"
+             d:DesignWidth="800" d:DesignHeight="70"
+             Background="{DynamicResource BackgroundColor}"
+             d:DataContext="{d:DesignInstance viewModel:ControlPanelViewModel}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="80"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Border Width="50" Height="50" 
+                    CornerRadius="8" 
+                    Padding="0"
+                    Background="DimGray" 
+                    BorderThickness="0"
+                    Grid.Column="0"
+                    Margin="10,0,8,0"/>
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type Label}">
+                        <Setter Property="Foreground" Value="{DynamicResource AccentFontColor}"/>
+                        <Setter Property="HorizontalAlignment" Value="Left"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="{DynamicResource SelectionFontColor}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Resources>
+                <Label Name="TrackTitleLabel" Padding="0" Margin="0" Content="{Binding CurrentTrack.Title, FallbackValue=Track Title}"
+                       MouseLeftButtonDown="TrackTitleLabel_OnMouseLeftButtonDown"/>
+                <Label Name="TrackArtistLabel" Padding="0" Margin="0" Content="{Binding CurrentTrack.Artist.Title, FallbackValue=Artist Name}"
+                       MouseLeftButtonDown="TrackArtistLabel_OnMouseLeftButtonDown"/>
+            </StackPanel>
+            <StackPanel Margin="5,0,0,0" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <CheckBox x:Name="TrackLiked" IsChecked="{Binding CurrentTrack.IsLiked, FallbackValue='{x:Null}' }"
+                          MouseLeftButtonDown="TrackLiked_OnMouseLeftButtonDown">
+                    <CheckBox.Style>
+                        <Style TargetType="CheckBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image x:Name="checkboxImage" 
+                                                   Source="../../Icons/DarkTheme/Other/heartEmpty.png" Width="19"/>
+                                            <ContentPresenter/>
+                                        </StackPanel>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsChecked" Value="True">
+                                                <Setter TargetName="checkboxImage" Property="Source" Value="../../Icons/DarkTheme/Other/heartFilled.png"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </CheckBox.Style> 
+                </CheckBox>
+                <Separator Width="5" Opacity="0"/>
+                <CheckBox x:Name="TrackBlocked" IsChecked="{Binding CurrentTrack.IsBlocked, FallbackValue=true}"
+                          MouseLeftButtonDown="TrackLiked_OnMouseLeftButtonDown">
+                    <CheckBox.Style>
+                        <Style TargetType="CheckBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image x:Name="checkboxImage" 
+                                                   Source="../../Icons/DarkTheme/Other/block.png" Width="17.6"/>
+                                            <ContentPresenter/>
+                                        </StackPanel>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsChecked" Value="True">
+                                                <Setter TargetName="checkboxImage" Property="Source" Value="../../Icons/DarkTheme/Other/block.png"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </CheckBox.Style> 
+                </CheckBox>
+            </StackPanel>
+        </Grid>
+        <Grid Column="1">
+            <Grid VerticalAlignment="Top" Height="45" Margin="0,3,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="33"/>
+                    <ColumnDefinition Width="38"/>
+                    <ColumnDefinition Width="43"/>
+                    <ColumnDefinition Width="38"/>
+                    <ColumnDefinition Width="33"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.Resources>
+                    <Style TargetType="Separator">
+                        <Setter Property="Width" Value="3"/>
+                        <Setter Property="Opacity" Value="0"/>
+                    </Style>
+                    <Style TargetType="CheckBox" x:Key="Check">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                        <Setter Property="IsHitTestVisible" Value="False"/>
+                    </Style>
+                    <Style TargetType="{x:Type Border}" x:Key="Border">
+                        <Setter Property="Background" Value="{DynamicResource SelectionItemColor}"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="CornerRadius" Value="30"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                    </Style>
+                </Grid.Resources>
+                
+                    <Border Name="ShuffleTrackButton" Grid.Column="1"
+                            MouseLeftButtonDown="ShuffleTrackButton_OnMouseLeftButtonDown">
+                        <Border.Style>
+                            <Style TargetType="Border" BasedOn="{StaticResource Border}">
+                                <Setter Property="Width" Value="28"/>
+                                <Setter Property="Height" Value="28"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Width" Value="33"/>
+                                        <Setter Property="Height" Value="33"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <CheckBox IsChecked="{Binding IsShuffle, Mode=TwoWay}">
+                            <CheckBox.Style>
+                                <Style TargetType="CheckBox" BasedOn="{StaticResource Check}">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type CheckBox}">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image x:Name="checkboxImage"
+                                                           Source="../../Icons/DarkTheme/ControlBar/noShuffle.png" Width="13"/>
+                                                    <ContentPresenter/>
+                                                </StackPanel>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsChecked" Value="True">
+                                                        <Setter TargetName="checkboxImage" Property="Margin" Value="0"></Setter>
+                                                        <Setter TargetName="checkboxImage" Property="Source" Value="../../Icons/DarkTheme/ControlBar/shuffle.png"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </CheckBox.Style> 
+                        </CheckBox>
+                    </Border>
+                    <Border Name="PreviousTrack" MouseLeftButtonDown="PreviousTrack_OnMouseLeftButtonDown"
+                            Grid.Column="2">
+                        <Border.Style>
+                            <Style TargetType="Border" BasedOn="{StaticResource Border}">
+                                <Setter Property="Width" Value="33"/>
+                                <Setter Property="Height" Value="33"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Width" Value="38"/>
+                                        <Setter Property="Height" Value="38"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <Image Source="../../Icons/DarkTheme/ControlBar/previous.png" Width="13"/>
+                    </Border>
+                    <Border Name="PlayTrackButton" Grid.Column="3"
+                            MouseLeftButtonDown="PlayTrackButton_OnMouseLeftButtonDown">
+                        <Border.Style>
+                            <Style TargetType="Border" BasedOn="{StaticResource Border}">
+                                <Setter Property="Width" Value="38"/>
+                                <Setter Property="Height" Value="38"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Width" Value="43"/>
+                                        <Setter Property="Height" Value="43"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <CheckBox IsChecked="{Binding IsPlaying, Mode=TwoWay}">
+                            <CheckBox.Style>
+                                <Style TargetType="CheckBox" BasedOn="{StaticResource Check}">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type CheckBox}">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image x:Name="checkboxImage" 
+                                                           Margin="3,0,0,0"
+                                                           Source="../../Icons/DarkTheme/ControlBar/play.png" Width="13"/>
+                                                    <ContentPresenter/>
+                                                </StackPanel>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsChecked" Value="True">
+                                                        <Setter TargetName="checkboxImage" Property="Margin" Value="0"></Setter>
+                                                        <Setter TargetName="checkboxImage" Property="Source" Value="../../Icons/DarkTheme/ControlBar/pause.png"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </CheckBox.Style> 
+                        </CheckBox>
+                    </Border>
+                    <Border Name="NextTrack" MouseLeftButtonDown="NextTrack_OnMouseLeftButtonDown" Grid.Column="4">
+                        <Border.Style>
+                            <Style TargetType="Border" BasedOn="{StaticResource Border}">
+                                <Setter Property="Width" Value="33"/>
+                                <Setter Property="Height" Value="33"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Width" Value="38"/>
+                                        <Setter Property="Height" Value="38"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <Image Source="../../Icons/DarkTheme/ControlBar/next.png" Width="13"/>
+                    </Border>
+                    <Border Name="RepeatTrackButton" Grid.Column="5" 
+                            MouseLeftButtonDown="RepeatTrackButton_OnMouseLeftButtonDown"
+                            MouseRightButtonDown="RepeatTrackButton_OnMouseRightButtonDown">
+                        <Image Name="RepeatImage" Width="14"
+                               IsHitTestVisible="False">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Source" Value="../../Icons/DarkTheme/ControlBar/noRepeat.png"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding RepeatType}" Value="None">
+                                            <Setter Property="Source" Value="../../Icons/DarkTheme/ControlBar/noRepeat.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding RepeatType}" Value="RepeatPlaylist">
+                                            <Setter Property="Source" Value="../../Icons/DarkTheme/ControlBar/repeatPlaylist.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding RepeatType}" Value="RepeatTrack">
+                                            <Setter Property="Source" Value="../../Icons/DarkTheme/ControlBar/repeatTrack.png"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Border.Style>
+                            <Style TargetType="Border" BasedOn="{StaticResource Border}">
+                                <Setter Property="Width" Value="28"/>
+                                <Setter Property="Height" Value="28"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Width" Value="33"/>
+                                        <Setter Property="Height" Value="33"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                    </Border>
+            </Grid>
+            <Grid VerticalAlignment="Bottom" Margin="0,0,0,3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="Foreground" Value="{DynamicResource AccentFontColor}"/>
+                    </Style>
+                </Grid.Resources>
+                <Label Grid.Column="0" VerticalAlignment="Center" Content="0:00"/>
+                <Label Grid.Column="2" VerticalAlignment="Center" Content="1:55:23"/>
+                <Slider Grid.Column="1" VerticalAlignment="Center"
+                        Minimum="0" Maximum="1000" Value="30"
+                        IsMoveToPointEnabled="True" Style="{StaticResource SliderStyle}"/>
+            </Grid>    
+        </Grid>
+        <Grid Column="2">
+            <Border Name="VolumeButton" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                    Width="28" Height="28" Margin="0,0,3,0" Background="{DynamicResource SelectionItemColor}"
+                    BorderThickness="0"
+                    CornerRadius="90">
+                <CheckBox IsChecked="{Binding IsMuted, Mode=TwoWay}"
+                          IsHitTestVisible="False"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center">
+                    <CheckBox.Style>
+                        <Style TargetType="CheckBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image x:Name="checkboxImage"
+                                                   Source="../../Icons/DarkTheme/ControlBar/unmuted.png" Width="13"/>
+                                            <ContentPresenter/>
+                                        </StackPanel>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsChecked" Value="True">
+                                                <Setter TargetName="checkboxImage" Property="Margin" Value="0"></Setter>
+                                                <Setter TargetName="checkboxImage" Property="Source" Value="../../Icons/DarkTheme/ControlBar/muted.png"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </CheckBox.Style> 
+                </CheckBox>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>
