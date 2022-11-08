@@ -6,7 +6,8 @@ IDE: JetBrains Rider 2022.2.3
 В данный момент разрабатывается: Desktop-версия  
 ЯП: С# 10.0, WPF  
 Фреймворк: .NET Core 6.0  
-База данных: SQL Server Management Studio 18.12.1
+База данных: SQL Server Management Studio 18.12.1  
+Файлы: https://disk.yandex.ru/d/JJT-fvm6xjJKMQ
 
 # Процесс создания
 # На данный момент готово:
@@ -75,15 +76,16 @@ IDE: JetBrains Rider 2022.2.3
 - Artists(Исполнители) - Плейлист, содержащий в себе плейлисты для каждого отдельного автора
 
 # Инструкция по запуску
-1) Скачать структуру таблицы
+Файлы раположены по адресу: https://disk.yandex.ru/d/JJT-fvm6xjJKMQ
+1) Скачать структуру таблицы "CreateDataBase"
 2) Развернуть в SQL Server
-3) Импортировать данные из архива TestData
+3) Импортировать данные из архива "TestData"
 4) Логин и пароль пользователей из TestData (login:password)
 grapple:grapple
 vector:vector
 6) Открыть файл MusicApp/Server/config.ini 
 7) Указать connectionString
-8) Открыть файл DesktopMusicApp/Server/config.ini 
+8) Открыть файл MusicApp/DesktopMusicApp/config.ini 
 9) В hostIP указать IP устройства, на котором будет запускаться сервер
 10) При желании изменить port в обоих файлах (должны быть идентичны)
 11) Скомпилировать приложения
