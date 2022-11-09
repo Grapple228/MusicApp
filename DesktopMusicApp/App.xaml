@@ -35,6 +35,8 @@
                      <!--Цвет фона формы-->
                      <SolidColorBrush x:Key="LightColor" Color="#252525" />
                      <!--Цвет для выделения выбранных элементов-->
+                     <SolidColorBrush x:Key="HoverItemColor" Color="#242424" />
+                     <!--Цвет для выделения выбранных элементов-->
                      <SolidColorBrush x:Key="SelectionItemColor" Color="#202020" />
                  </ResourceDictionary>
              </ResourceDictionary.MergedDictionaries>

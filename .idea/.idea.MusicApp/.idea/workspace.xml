@@ -14,7 +14,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76b85f80-c988-45ea-89cb-b71a7692e303" name="Changes" comment="" />
+    <list default="true" id="76b85f80-c988-45ea-89cb-b71a7692e303" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DesktopMusicApp/Enums/ThemesEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusicApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusicApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/Classes/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/Classes/AppSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/Classes/Language.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/Classes/Language.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/Classes/RepeatType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/Enums/RepeatTypeEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/Classes/Theme.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/Classes/Theme.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/ControlPanel.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/ControlPanel.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/ControlPanel.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/ControlPanel.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/PlaylistList.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/PlaylistList.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/PlaylistList.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/PlaylistList.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/TrackList.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/TrackList.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/TrackList.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Controls/TrackList.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Model/PlaylistModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Model/TrackModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/Model/TrackModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/View/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/View/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/View/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/View/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/ControlPanelViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/ControlPanelViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/MainViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/PlaylistsAndTracksViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/PlaylistsAndTracksViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/PlaylistsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/PlaylistsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/TracksViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/MVVM/ViewModel/TracksViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/Net/Connection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/Net/Connection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/Tools/Methods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/Tools/Methods.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/App.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop_MarkupCompile.i.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/Desktop_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/GeneratedInternalTypeHelper.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/GeneratedInternalTypeHelper.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/ControlPanel.baml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/ControlPanel.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/ControlPanel.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/ControlPanel.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/PlaylistList.baml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/PlaylistList.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/PlaylistList.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/PlaylistList.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/SearchBox.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/SearchBox.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/TrackList.baml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/TrackList.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/TrackList.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/Controls/TrackList.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/AddView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/AddView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/BrowseView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/BrowseView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/LoginView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/LoginView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/PlaylistsAndTracksView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/PlaylistsAndTracksView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/PlaylistsView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/PlaylistsView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/RegistrationView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/RegistrationView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/RestorePasswordView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/RestorePasswordView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/TracksView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/TracksView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/UserLoginnedView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/UserLoginnedView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/UserNeedTioLoginView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/MVVM/View/UserNeedTioLoginView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/ref/Desktop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/ref/Desktop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/refint/Desktop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DesktopMusicApp/obj/Debug/net6.0-windows/refint/Desktop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Models/TrackModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Models/TrackModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/ref/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/ref/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/refint/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/net6.0/refint/Shared.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +117,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cde0291933299f1e732d9436b8558e21577bcdf64c6d8ac7c6a0abeac6c6d/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ced3bcf495e3c9058fd6afcbaab69ca5bedde2324dca927b4447f7daef091/HwndSubclass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d3fecb21daf9358e7bf6e3705f41f80419d9dd034642d7b4481eb5d8c9472/HwndWrapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d82b8ac02bb43d6b94884e283d560e14f18f7caa55c2d41bb0fc59beb77a1d/UriExt.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d9d9faea5e6ed6438a777ef8c6eed41261f81d8e86488ed923ad92564f54e/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/efd3e9c4749621d4a53b45d7117d2a581e02a265c444a040f1387a155db/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesktopMusicApp/MVVM/View/RestorePasswordView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,27 +138,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.25304878",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.25304878&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Config"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Config&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.Desktop">
     <configuration name="ConsoleApplication1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -297,6 +362,9 @@
       <workItem from="1667732201089" duration="34776000" />
       <workItem from="1667929272952" duration="1657000" />
       <workItem from="1667931001923" duration="451000" />
+      <workItem from="1667933463195" duration="49000" />
+      <workItem from="1667981375529" duration="15017000" />
+      <workItem from="1668004063624" duration="6663000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1">
       <created>1667930704230</created>

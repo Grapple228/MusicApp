@@ -120,7 +120,7 @@
                                                         Width="23"
                                                         Height="23"
                                                         MouseLeftButtonDown="LikeButton_OnMouseLeftButtonDown">
-                                                    <CheckBox x:Name="TrackLiked" IsChecked="{Binding IsLiked}"
+                                                    <CheckBox x:Name="PlaylistLiked" IsChecked="{Binding IsLiked}"
                                                           HorizontalAlignment="Center" VerticalAlignment="Center"
                                                           IsHitTestVisible="False">
                                                     <CheckBox.Style>
@@ -161,6 +161,11 @@
                                         <Setter Property="Opacity" Value="0.3" TargetName="ItemBorder"/>
                                         <Setter Property="Visibility" Value="Visible" TargetName="PlaylistControls"/>
                                     </Trigger>
+                                    <DataTrigger Binding="{Binding IsChecked, ElementName=PlaylistLiked}" Value="True">
+                                        <Setter Property="Visibility" TargetName="LikeButton" Value="Visible">
+                                            
+                                        </Setter>
+                                    </DataTrigger>
                                 </ControlTemplate.Triggers>
                             </ControlTemplate>
                         </Setter.Value>

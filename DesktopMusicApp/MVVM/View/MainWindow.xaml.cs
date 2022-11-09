@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using Desktop.Classes;
+using Desktop.Enums;
 using Desktop.MVVM.Interfaces;
 using Desktop.MVVM.Model;
 using Desktop.MVVM.ViewModel;
@@ -66,14 +69,14 @@ public partial class MainWindow
 
     private void LeftPanelScrollViewer_OnPreviewMouseWheel(object sender, MouseWheelEventArgs e)
     {
-        ScrollViewer scv = (ScrollViewer)sender;
+        var scv = (ScrollViewer)sender;
         scv.ScrollToVerticalOffset(scv.VerticalOffset - e.Delta / ScrollSizeDividing);
         e.Handled = true;
     }
 
     private void ContentScrollViewer_OnPreviewMouseWheel(object sender, MouseWheelEventArgs e)
     {
-        ScrollViewer scv = (ScrollViewer)sender;
+        var scv = (ScrollViewer)sender;
         scv.ScrollToVerticalOffset(scv.VerticalOffset - e.Delta / ScrollSizeDividing);
         e.Handled = true;
     }
@@ -81,23 +84,28 @@ public partial class MainWindow
     private void PageBorder_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
     {
         if(sender is not Border border) return;
-        switch (border.Name)
+        AppSettings.MainViewModel!.CurrentContentView = border.Name switch
         {
-            case "HomeBorder": 
-                AppSettings.MainViewModel!.CurrentContentView = new HomeViewModel();
-                break;
-            case "AddBorder":
-                AppSettings.MainViewModel!.CurrentContentView = new AddViewModel();
-                break;
-            case "BrowseBorder":
-                AppSettings.MainViewModel!.CurrentContentView = new BrowseViewModel();
-                break;
-        }
+            "HomeBorder" => new HomeViewModel(),
+            "AddBorder" => new AddViewModel(),
+            "BrowseBorder" => new BrowseViewModel(),
+            _ => AppSettings.MainViewModel!.CurrentContentView
+        };
     }
 
     private void ItemBorder_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
     {
         if(sender is not Border border) return;
         AppSettings.MainViewModel!.SelectedPlaylist = (IPlaylist)border.DataContext;
+    }
+
+    private void ChangeThemeButton_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+    {
+        AppSettings.Theme.CurrentTheme = AppSettings.Theme.CurrentTheme switch
+        {
+            Themes.Dark => Themes.Light,
+            Themes.Light => Themes.Dark,
+            _ => Themes.Dark
+        };
     }
 }

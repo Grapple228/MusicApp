@@ -1,4 +1,4 @@
-﻿namespace Desktop.Classes;
+﻿namespace Desktop.Enums;
 
 public enum RepeatType
 {

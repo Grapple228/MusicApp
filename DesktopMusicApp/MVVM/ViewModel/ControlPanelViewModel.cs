@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using Desktop.Classes;
+using Desktop.Enums;
 using Desktop.MVVM.Interfaces;
 using Desktop.MVVM.Model;
 using Shared;
@@ -98,24 +99,26 @@ public class ControlPanelViewModel : ObservableObject
     
     public float Volume { get; set; }
 
-    public void SetTrack(object dataContext,TrackModel trackModel, bool isPlaying = true)
+    public void SetTrack(TrackModel? trackModel, bool isPlaying = true)
     {
-        if (dataContext is IPlaylistWithTracks playlistWithTracks)
+        if (AppSettings.MainViewModel?.CurrentContentView is IPlaylistWithTracks playlistWithTracks)
         {
             playlistWithTracks.SelectedTrack = trackModel;
         }
         CurrentTrack = trackModel;
-        trackModel.IsPlaying = isPlaying;
+        if(trackModel != null)
+            trackModel.IsPlaying = isPlaying;
     }
 
-    public void SetPlaylistAndTrack(object dataContext,IPlaylistWithTracks playlistModel,TrackModel trackModel, bool isPlaying = true)
+    public void SetPlaylistAndTrack(IPlaylistWithTracks? playlistModel,TrackModel? trackModel, bool isPlaying = true)
     {
-        if (dataContext is IPlaylistWithPlaylists playlistWithPlaylists)
+        if (AppSettings.MainViewModel?.CurrentContentView is IPlaylistWithPlaylists playlistWithPlaylists)
         {
             playlistWithPlaylists.SelectedPlaylist = playlistModel;
         }
         CurrentPlaylist = playlistModel;
-        SetTrack(dataContext, trackModel, isPlaying);
-        playlistModel.IsPlaying = isPlaying;
+        SetTrack(trackModel, isPlaying);
+        if(playlistModel != null)
+            playlistModel.IsPlaying = isPlaying;
     }
 }

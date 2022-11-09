@@ -31,7 +31,6 @@ public partial class PlaylistList : UserControl
         if (oldPlaylist?.Id == currentPlaylist.Id)
         {
             AppSettings.ControlPanelViewModel.SetPlaylistAndTrack(
-                (IPlaylist)DataContext, 
                 currentPlaylist, 
                 oldTrack!,
                 !currentPlaylist.IsPlaying);
@@ -47,7 +46,6 @@ public partial class PlaylistList : UserControl
                 ? currentPlaylist.Tracks[0] 
                 : null;
             AppSettings.ControlPanelViewModel.SetPlaylistAndTrack(
-                (IPlaylist)DataContext, 
                 currentPlaylist, 
                 currentTrack!);
         }

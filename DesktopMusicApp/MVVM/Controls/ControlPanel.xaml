@@ -23,7 +23,7 @@
             <Border Width="50" Height="50" 
                     CornerRadius="8" 
                     Padding="0"
-                    Background="DimGray" 
+                    Background="{DynamicResource FontColor}" 
                     BorderThickness="0"
                     Grid.Column="0"
                     Margin="10,0,8,0"/>
@@ -131,7 +131,7 @@
                                 <Setter Property="Height" Value="28"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Background" Value="{DynamicResource HoverItemColor}"/>
                                         <Setter Property="Width" Value="33"/>
                                         <Setter Property="Height" Value="33"/>
                                     </Trigger>
@@ -170,7 +170,7 @@
                                 <Setter Property="Height" Value="33"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Background" Value="{DynamicResource HoverItemColor}"/>
                                         <Setter Property="Width" Value="38"/>
                                         <Setter Property="Height" Value="38"/>
                                     </Trigger>
@@ -187,7 +187,7 @@
                                 <Setter Property="Height" Value="38"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Background" Value="{DynamicResource HoverItemColor}"/>
                                         <Setter Property="Width" Value="43"/>
                                         <Setter Property="Height" Value="43"/>
                                     </Trigger>
@@ -226,7 +226,7 @@
                                 <Setter Property="Height" Value="33"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Background" Value="{DynamicResource HoverItemColor}"/>
                                         <Setter Property="Width" Value="38"/>
                                         <Setter Property="Height" Value="38"/>
                                     </Trigger>
@@ -263,7 +263,7 @@
                                 <Setter Property="Height" Value="28"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="{DynamicResource LightColor}"/>
+                                        <Setter Property="Background" Value="{DynamicResource HoverItemColor}"/>
                                         <Setter Property="Width" Value="33"/>
                                         <Setter Property="Height" Value="33"/>
                                     </Trigger>

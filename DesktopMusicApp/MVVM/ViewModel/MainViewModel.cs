@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Media;
 using Desktop.Classes;
+using Desktop.Enums;
 using Desktop.MVVM.Interfaces;
 using Desktop.MVVM.Model;
 using Shared;
@@ -14,6 +11,16 @@ namespace Desktop.MVVM.ViewModel;
 
 public class MainViewModel : ObservableObject
 {
+    private Theme _theme;
+    public Theme Theme
+    {
+        get => _theme;
+        set
+        {
+            _theme = value;
+            OnPropertyChanged();
+        }
+    }
     private TrackModel? _currentTrack;
     public TrackModel? CurrentTrack
     {
@@ -63,6 +70,7 @@ public class MainViewModel : ObservableObject
 
     public MainViewModel()
     {
+        Theme = AppSettings.Theme;
         Playlists = new BindingList<IPlaylist>()
         {
             new PlaylistsAndTracksViewModel("Liked", "Liked"),
@@ -70,7 +78,7 @@ public class MainViewModel : ObservableObject
             new PlaylistsViewModel("Albums","Albums"),
             new PlaylistsViewModel("Artists","Artists"),
         };
-        CurrentUserView = new UserNeedToLoginViewModel();
+        
     }
 
     public void ClearPlaylists()

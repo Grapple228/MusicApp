@@ -76,6 +76,7 @@ public class PlaylistsAndTracksViewModel : IPlaylistWithPlaylistsAndTracks
         set
         {
             _isLiked = value;
+            Methods.ProcessPlaylistIsLiked(this);
             OnPropertyChanged();
         } 
     }

@@ -8,19 +8,13 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
 using Desktop.Classes;
 using Desktop.MVVM.Interfaces;
-using Desktop.MVVM.Model;
-using Desktop.MVVM.View;
 using Desktop.MVVM.ViewModel;
 using Shared;
 using Shared.Models;
 using Newtonsoft.Json;
-using LoginMessage = Desktop.MVVM.Model.LoginMessage;
 using MusicMessage = Desktop.MVVM.Model.MusicMessage;
-using PlaylistModel = Desktop.MVVM.Model.PlaylistModel;
 using TrackModel = Desktop.MVVM.Model.TrackModel;
 
 namespace Desktop.Net;
@@ -213,9 +207,7 @@ public class Connection : IDisposable
                 // оказать уведомление о завершении синхронизации треков
             }
         }
-
-        public DependencyProperty BackgroundProperty { get; set; }
-
+        
         private Dictionary<string, object>? DecodeMessage(byte[] buffer)
         {
             return Json.StringToDictionary(Encoding.UTF8.GetString(buffer));

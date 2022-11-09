@@ -3,6 +3,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using Desktop.Classes;
 using Desktop.MVVM.Interfaces;
+using Desktop.Tools;
 using Shared.Models;
 using TrackModel = Desktop.MVVM.Model.TrackModel;
 
@@ -21,6 +22,7 @@ public class TracksViewModel : IPlaylistWithTracks
         set
         {
             _isLiked = value;
+            Methods.ProcessPlaylistIsLiked(this);
             OnPropertyChanged();
         } 
     }

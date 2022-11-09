@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using Desktop.Enums;
 using Desktop.MVVM.View;
 using Desktop.MVVM.ViewModel;
 using Desktop.Net;
@@ -16,11 +17,19 @@ public static class AppSettings
     static AppSettings()
     {
         Manager = new IniManager($"{Environment.CurrentDirectory}\\config.ini");
+        Theme = Manager.GetPrivateString("appSettings", "theme").ToLower() switch
+        {
+            "dark" => new Theme(Themes.Dark),
+            "light" => new Theme(Themes.Light),
+            _ => new Theme(Themes.Dark)
+        };
         //Language.ChangeLanguage(Manager.GetPrivateString("appSettings", "language"));
         ClientThread = new Thread(StartClient);
     }
 
-    private static async void StartClient()
+    public static Theme Theme { get; }
+    
+    private static void StartClient()
     {
         try
         {

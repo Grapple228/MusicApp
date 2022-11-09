@@ -70,7 +70,7 @@ namespace Desktop.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Desktop;component/mvvm/view/userneedtiologinview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Desktop;V1.0.0.0;component/mvvm/view/userneedtiologinview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\UserNeedTioLoginView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

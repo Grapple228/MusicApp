@@ -41,6 +41,8 @@
                 <Label Content="{Binding CurrentTrack.Title, FallbackValue=None}"/>
                 <Label Content="Playing: "/>
                 <Label Content="{Binding IsPlaying, FallbackValue=false}"/>
+                <Label Content="Theme: "/>
+                <Label Content="{Binding Theme.CurrentTheme}"/>
             </StackPanel>
             
             <!--WINDOW TOP BORDER-->
@@ -125,6 +127,43 @@
                                  Width="200"
                                  HorizontalAlignment="Left"/>
             
+            <Border x:Name="ChangeThemeButton"
+                    HorizontalAlignment="Right"
+                    Grid.Column="1" Grid.Row="1"
+                    BorderThickness="0" 
+                    CornerRadius="15"
+                    Height="30"
+                    Width="120"
+                    Margin="0,5"
+                    MouseLeftButtonDown="ChangeThemeButton_OnMouseLeftButtonDown">
+                <Border.Resources>
+                    <Style TargetType="{x:Type Label}">
+                        <Setter Property="Foreground" Value="{DynamicResource FontColor}"></Setter>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsMouseOver, ElementName=RegisterButton}" Value="True">
+                                <Setter Property="Foreground" Value="{DynamicResource AccentFontColor}"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Border.Resources>
+                <Border.Style>
+                    <Style TargetType="Border">
+                        <Setter Property="Background" Value="LightGreen"></Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="PaleGreen"></Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Border.Style>
+                <Label Margin="0" Padding="0" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"
+                       Content="Change Theme"
+                       FontSize="15">
+                </Label>
+            </Border>
+            
             <!--USER PANEL-->
             <UserControl Name="UserElement" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"
                          Panel.ZIndex="1" Content="{Binding CurrentUserView}"
@@ -146,8 +185,8 @@
                         <StackPanel.Resources>
                             <Style x:Key="BorderStyle" TargetType="Border">
                                 <Setter Property="CornerRadius" Value="0,15,15,0"/>
-                                <Setter Property="Margin" Value="11,1,1,0"/>
-                                <Setter Property="Padding" Value="0,3"/>
+                                <Setter Property="Margin" Value="0,1,1,0"/>
+                                <Setter Property="Padding" Value="11,3,3,0"/>
                                 <Setter Property="Background" Value="Transparent"/>
                                 <EventSetter Event="MouseLeftButtonDown" Handler="PageBorder_OnMouseLeftButtonDown"/>
                             </Style>
@@ -165,17 +204,20 @@
                                     <Border Name="HomeBorder"
                                             Style="{StaticResource BorderStyle}">
                                         <StackPanel Orientation="Horizontal">
-                                            <Border Width="25" Height="25" Background="Aquamarine"/>
+                                            <Border Width="25" Height="25">
+                                                <Image Source="{Binding Theme.HomeImage}"/>
+                                            </Border>
                                             <Label Content="Home"
                                                    FontWeight="Bold"
                                                    FontSize="13"
+                                                   VerticalAlignment="Center"
                                                    Margin="4,0,0,0"
                                                    Foreground="{DynamicResource AccentFontColor}"/>
                                         </StackPanel>
                                     </Border>
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" TargetName="HomeBorder" Value="{DynamicResource SelectionItemColor}"/>
+                                            <Setter Property="Background" TargetName="HomeBorder" Value="{DynamicResource HoverItemColor}"/>
                                         </Trigger>
                                         <Trigger Property="IsChecked" Value="True">
                                             <Setter Property="Background" TargetName="HomeBorder" Value="{DynamicResource SelectionItemColor}"/>
@@ -192,17 +234,20 @@
                                     <Border Name="BrowseBorder"
                                             Style="{StaticResource BorderStyle}">
                                         <StackPanel Orientation="Horizontal">
-                                            <Border Width="25" Height="25" Background="Aquamarine"/>
+                                            <Border Width="25" Height="25">
+                                                <Image Source="{Binding Theme.BrowseImage}"/>
+                                            </Border>
                                             <Label Content="Browse"
                                                    FontWeight="Bold"
                                                    FontSize="13"
                                                    Margin="4,0,0,0"
+                                                   VerticalAlignment="Center"
                                                    Foreground="{DynamicResource AccentFontColor}"/>
                                         </StackPanel>
                                     </Border>
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" TargetName="BrowseBorder" Value="{DynamicResource SelectionItemColor}"/>
+                                            <Setter Property="Background" TargetName="BrowseBorder" Value="{DynamicResource HoverItemColor}"/>
                                         </Trigger>
                                         <Trigger Property="IsChecked" Value="True">
                                             <Setter Property="Background" TargetName="BrowseBorder" Value="{DynamicResource SelectionItemColor}"/>
@@ -242,7 +287,7 @@
                                                             <Setter Property="Background" Value="Transparent"/>
                                                             <Style.Triggers>
                                                                 <Trigger Property="IsMouseOver" Value="True">
-                                                                    <Setter Property="Background" Value="{DynamicResource SelectionItemColor}"/>
+                                                                    <Setter Property="Background" Value="{DynamicResource HoverItemColor}"/>
                                                                 </Trigger>
                                                             </Style.Triggers>
                                                         </Style>
@@ -277,17 +322,20 @@
                                     <Border Name="AddBorder"
                                             Style="{StaticResource BorderStyle}">
                                         <StackPanel Orientation="Horizontal">
-                                            <Border Width="25" Height="25" Background="Aquamarine"/>
+                                            <Border Width="25" Height="25">
+                                                <Image Source="{Binding Theme.AddImage}"/>
+                                            </Border>
                                             <Label Content="Add"
                                                    FontWeight="Bold"
                                                    FontSize="13"
                                                    Margin="4,0,0,0"
+                                                   VerticalAlignment="Center"
                                                    Foreground="{DynamicResource AccentFontColor}"/>
                                         </StackPanel>
                                     </Border>
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" TargetName="AddBorder" Value="{DynamicResource SelectionItemColor}"/>
+                                            <Setter Property="Background" TargetName="AddBorder" Value="{DynamicResource HoverItemColor}"/>
                                         </Trigger>
                                         <Trigger Property="IsChecked" Value="True">
                                             <Setter Property="Background" TargetName="AddBorder" Value="{DynamicResource SelectionItemColor}"/>

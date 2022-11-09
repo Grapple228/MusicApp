@@ -45,6 +45,7 @@ public class PlaylistsViewModel : IPlaylistWithPlaylists
         set
         {
             _isLiked = value;
+            Methods.ProcessPlaylistIsLiked(this);
             OnPropertyChanged();
         } 
     }

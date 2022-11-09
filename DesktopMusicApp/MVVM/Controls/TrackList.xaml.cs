@@ -54,7 +54,6 @@ public partial class TrackList : UserControl
                 oldPlaylist.IsPlaying = false;
 
             AppSettings.ControlPanelViewModel.SetPlaylistAndTrack(
-                (IPlaylist)DataContext, 
                 currentPlaylist, 
                 currentTrack!);
         }

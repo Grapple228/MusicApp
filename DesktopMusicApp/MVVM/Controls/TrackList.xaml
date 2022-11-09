@@ -21,11 +21,6 @@
                                         <Style TargetType="Border" x:Key="BorderStyle">
                                             <Setter Property="Background" Value="Transparent"/>
                                             <Setter Property="CornerRadius" Value="13"/>
-                                            <Style.Triggers>
-                                                <Trigger Property="IsMouseOver" Value="True">
-                                                    <Setter Property="Background" Value="{DynamicResource SelectionItemColor}"/>
-                                                </Trigger>
-                                            </Style.Triggers>
                                         </Style>
                                     </ControlTemplate.Resources>
                                     <Border Name="TrackListItemBorder" Padding="0,6"
@@ -145,14 +140,14 @@
                                     </Border>
                                     
                                     <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="{DynamicResource HoverItemColor}"/>
+                                            <Setter Property="Visibility" Value="Visible" TargetName="PlayButton"/>
+                                            <Setter Property="Visibility" Value="Visible" TargetName="LikeButton"/>
+                                        </Trigger>
                                         <Trigger Property="IsSelected" Value="True">
                                             <Setter Property="Background" Value="{DynamicResource SelectionItemColor}"/>
                                             <Setter Property="Visibility" Value="Visible" TargetName="PlayButton"/>
-                                        </Trigger>
-                                        <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" Value="{DynamicResource SelectionItemColor}"/>
-                                            <Setter Property="Visibility" Value="Visible" TargetName="PlayButton"/>
-                                            <Setter Property="Visibility" Value="Visible" TargetName="LikeButton"/>
                                         </Trigger>
                                     </ControlTemplate.Triggers>
                                 </ControlTemplate>

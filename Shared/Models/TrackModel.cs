@@ -33,7 +33,8 @@ public class TrackModel : ObservableObject
     /// </summary>
     public int? Bytes;
 
-    private bool _isLiked;
+    protected bool _isLiked;
+
     public bool IsLiked
     {
         get => _isLiked;

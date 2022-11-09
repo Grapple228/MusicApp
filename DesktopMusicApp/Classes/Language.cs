@@ -63,29 +63,5 @@ public class Language : ObservableObject
             default:
                 break;
         }
-        
-        void setToEnglish()
-                        {
-                            if(AppSettings.MainWindow!.FindName("TracksList") is not ListView listView) return;
-        
-                            foreach (PlaylistModel i in listView.Items)
-                            {
-                                switch (i.Id)
-                                {
-                                    case "Liked":
-                                        i.Title = "Любимое";
-                                        continue;
-                                    case "Albums":
-                                        i.Title = "Альбомы";
-                                        continue;
-                                    case "Artists":
-                                        i.Title = "Исполнители";
-                                        continue;
-                                    case "Tracks":
-                                        i.Title = "Треки";
-                                        continue;
-                                }
-                            }
-                        }
     }
 }

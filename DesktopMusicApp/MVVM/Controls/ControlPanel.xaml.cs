@@ -4,6 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using Desktop.Classes;
+using Desktop.Enums;
 using Desktop.MVVM.Interfaces;
 using Desktop.MVVM.Model;
 using Desktop.MVVM.ViewModel;
@@ -49,8 +50,7 @@ public partial class ControlPanel : UserControl
         int index = currentPlaylist!.Tracks.IndexOf(currentTrack!);
         if(index - 1 < 0)
             return;
-        AppSettings.ControlPanelViewModel.SetTrack(AppSettings.MainViewModel!.CurrentContentView,
-            currentPlaylist.Tracks[index - 1]);
+        AppSettings.ControlPanelViewModel.SetTrack(currentPlaylist.Tracks[index - 1]);
     }
 
     private void NextTrack_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -61,8 +61,7 @@ public partial class ControlPanel : UserControl
         int index = currentPlaylist!.Tracks.IndexOf(currentTrack!);
         if(index + 1 == currentPlaylist.Tracks.Count)
             return;
-        AppSettings.ControlPanelViewModel.SetTrack(AppSettings.MainViewModel!.CurrentContentView,
-            currentPlaylist.Tracks[index + 1]);
+        AppSettings.ControlPanelViewModel.SetTrack(currentPlaylist.Tracks[index + 1]);
     }
 
     private void TrackTitleLabel_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
